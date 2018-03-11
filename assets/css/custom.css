@@ -1,0 +1,39 @@
+h1 {
+	font-size: 160%;
+	font-weight: bold;
+}
+
+h2{
+    font-size: 120%;
+}
+
+h3{
+    font-size: 110%;
+}
+
+h1, h2, h3, h4, h5, h6{
+    line-height: 2em;
+}
+
+p{
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+
+.entry > p{
+    margin-bottom: 0;
+}
+
+section, article {
+    margin-bottom: 1em;
+}
+
+#main {
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width: 960px){
+html, body {
+    overflow-x: scroll;
+}
+}

@@ -9,43 +9,67 @@
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" /> -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
 
   <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+    <!-- Header -->
+			<div id="header">
 
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
+				<div class="top">
 
-          <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
-          </nav>
-        </header>
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="{{ site.avatar }}" alt="" /></span>
+							<h1 id="title">{{ site.name }}</h1>
+							<p>{{ site.description }}</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="{{ site.baseurl }}/" id="top-link" class="skel-layers-ignoreHref {% if page.url == '/' %}active{% endif %}"><span class="icon fa-home">Home</span></a></li>
+								<li><a href="{{ site.baseurl }}/portfolio" id="portfolio-link" class="skel-layers-ignoreHref {% if page.url == '/portfolio/' %}active{% endif %}"><span class="icon fa-th">Portfolio</span></a></li>
+								<li><a href="{{ site.baseurl }}/about" id="about-link" class="skel-layers-ignoreHref {% if page.url == '/about/' %}active{% endif %}"><span class="icon fa-user">About Me</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+              <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+              <li><a href="#" class="icon fa-linkedin"><span class="label">Linked-in</span></a></li>
+              <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="https://github.com/novikariani/" class="icon fa-github"><span class="label">Github</span></a></li>
+							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+
+				</div>
       </div>
-    </div>
 
-    <div id="main" role="main" class="container">
+    <div id="" role="">
       {{ content }}
     </div>
 
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
-      </div>
-    </div>
+    <!-- {% include analytics.html %} -->
 
-    {% include analytics.html %}
+    		<!-- Scripts -->
+			<script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+			<script src="{{ site.baseurl }}/assets/js/jquery.scrolly.min.js"></script>
+			<script src="{{ site.baseurl }}/assets/js/jquery.scrollzer.min.js"></script>
+			<script src="{{ site.baseurl }}/assets/js/skel.min.js"></script>
+			<script src="{{ site.baseurl }}/assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+      <script src="{{ site.baseurl }}/assets/js/main.js"></script>
+      
   </body>
 </html>
