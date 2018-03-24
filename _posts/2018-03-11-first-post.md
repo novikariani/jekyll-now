@@ -1,8 +1,11 @@
 ---
 layout: post
-title: My First Post:)
+title: My First Post
 ---
-A link to Hello [my github repository](https://github.com/novikariani/novikariani.github.io). Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. 
+and I'm Exited!
+The more I meet people, the more I want to meet them. Simple, I do love traveling because I can meet more people. I'am originally from Bali, born in Bali, almost 17 years I spend my time in Bali. No wonder,for me, Bali is best place for living beacuse its cultures, food, places, and people. I can spend about 8 hours/24 hours in a days just for exploring. 
+
+Time passed, I realize that exploring Bali is not enough for me in order to meet diversity of people. to be continue...
 
 ![_config.yml]({{ site.baseurl }}/images/avatar.jpg)
 
