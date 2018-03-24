@@ -3,9 +3,9 @@ layout: post
 title: My First Post
 ---
 and I'm Exited!
-The more I meet people, the more I want to meet them. Simple, I do love traveling because I can meet more people. I'am originally from Bali, born in Bali, almost 17 years I spend my time in Bali. No wonder,for me, Bali is best place for living beacuse its cultures, food, places, and people. I can spend about 8 hours/24 hours in a days just for exploring. 
+The more I meet people, the more I want to meet them. Simple, I do love traveling because I can meet more people. I'am originally from Bali, born in Bali, almost 17 years I spend my time in Bali. No wonder,for me, Bali is best place for living because of its cultures, its food, its places, and its people. People drives me to understand about many things. Meanwhile, experiences teach me the right thing to learn from mistakes.
 
-Time passed, I realize that exploring Bali is not enough for me in order to meet diversity of people. to be continue...
+Time passed, I realize that exploring Bali is not enough for me in order to meet diversity of people.  to be continue...
 
 ![_config.yml]({{ site.baseurl }}/images/avatar.jpg)
 
