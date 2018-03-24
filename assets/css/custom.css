@@ -37,6 +37,11 @@ section, article {
     margin-bottom: 100px;
 }
 
+#main > section.one {
+    background-color: #81918E;
+    background-image: url("../../images/me3.png");
+}
+
 @media screen and (max-width: 960px){
 html, body {
     overflow-x: scroll;
