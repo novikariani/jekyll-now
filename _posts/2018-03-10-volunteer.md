@@ -14,4 +14,4 @@ The employees come to cook and serve lunch with local food such as corn, sweet p
 
 I was volunteer in planting activity, who are guided by “Komunitas Indonesia Berkebun” also teach young generation how to grow local food such as fruits and vegetables in the yard of their homes. This activity is aiming to optimization of yard land by producing food needs by the family and the momentum in raising awareness of healthier food patterns
 
-![_config.yml]({{ site.baseurl }}/images/avatar.jpg)
+![_config.yml]({{ site.baseurl }}/images/pic3.jpg)
