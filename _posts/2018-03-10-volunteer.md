@@ -1,8 +1,7 @@
 ---
 layout: post
-title: Food for Better Days: Meet The Children
+title: Food for Better Days
 ---
-
 
 
 In celebrating World Food Day 2017 on October 16, Danone Group in Indonesia held Food for Better Days program to invite young generation to love and optimize the local food potency to build Indonesian Food Security. Through this program, Indonesia’s Danone Group encourages young people to grow local food sources in their homes. This activity in line with the theme of Food Day 2017 "Moving Young Generation in Developing Agriculture Towards Indonesia World Food Barns". <br />
