@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Food for Better Days: Meet The Children
+title: Food for Better Days, Meet The Children
 ---
 
 ![_config.yml]({{ site.baseurl }}/images/avatar.jpg)
