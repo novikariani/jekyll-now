@@ -12,4 +12,4 @@ I figure it out  that make a presentation like cooking and preparing it. Burning
 to be continue...
 
 
-![_config.yml]({{ site.baseurl }}/images/pic3.jpg)
+![_config.yml]({{ site.baseurl }}/images/avatar.jpg)
