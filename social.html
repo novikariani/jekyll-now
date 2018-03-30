@@ -1,0 +1,23 @@
+---
+layout: default
+nav: social
+---
+        
+<div id="" class="container">
+  <h1>My Social Activities</h1>
+  <div class="socialActs">
+  {% for act in site.categories.social. %}
+    <article class="socialAct">
+
+      <h1><a href="{{ site.baseurl }}{{ act.url }}">{{ act.title }}</a></h1>
+
+      <div class="entry">
+        {{ act.excerpt }}
+        <a href="{{ site.baseurl }}{{ act.url }}" class="read-more">Read More</a>
+      </div>
+    </article>
+    
+  {% endfor %}
+</div>
+</div>
+

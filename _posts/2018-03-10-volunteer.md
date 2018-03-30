@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Food for Better Days
+categories: blog
 ---
 
 

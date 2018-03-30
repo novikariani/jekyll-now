@@ -20,23 +20,10 @@ nav: home
     </header>
   </div>
 </section>
-
-<!-- <div class="side-icons">
-  <ul class="">
-    <i class="fa fa-car"></i>
-    <i class="fa fa-envelope"></i>
-    <li><a href="twitter.com"><i class="fa fa-yelp"></i></a></li>
-    <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-    <li><a href="#" class="icon fa-linkedin"><span class="label">Linked-in</span></a></li>
-    <li><a href="https://www.instagram.com/novi.kariani/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-    <li><a href="https://github.com/novikariani/" class="icon fa-github"><span class="label">Github</span></a></li>
-    <li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
-  </ul>
-</div> -->
         
 <div id="afterBanner" class="container">
   <div class="posts">
-  {% for post in site.posts %}
+  {% for post in site.categories.blog %}
     <article class="post">
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
