@@ -11,7 +11,8 @@
 
 		<!-- <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" /> -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" />
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" /> -->
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css" />
 		<link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
@@ -19,43 +20,39 @@
   </head>
 
   <body>
-    <!-- Header -->
-			<div id="header">
-
-				<div class="top">
-
-					<!-- Logo -->
-						<div id="logo">
-							<span class="image avatar48"><img src="{{ site.avatar }}" alt="" /></span>
-							<h1 id="title">{{ site.name }}</h1>
-							<p>{{ site.description }}</p>
-						</div>
-
-					<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li><a href="{{ site.baseurl }}/" id="top-link" class="skel-layers-ignoreHref {% if page.url == '/' %}active{% endif %}"><span class="icon fa-home">Home</span></a></li>
-								<li><a href="{{ site.baseurl }}/portfolio" id="portfolio-link" class="skel-layers-ignoreHref {% if page.url == '/portfolio/' %}active{% endif %}"><span class="icon fa-th">Portfolio</span></a></li>
-								<li><a href="{{ site.baseurl }}/about" id="about-link" class="skel-layers-ignoreHref {% if page.url == '/about/' %}active{% endif %}"><span class="icon fa-user">About Me</span></a></li>
-							</ul>
-						</nav>
-
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>                        
+					</button>
+					<!-- <a class="navbar-brand" href="#myPage">{{ site.name }}</a> -->
 				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
 
-				<div class="bottom">
-
-					<!-- Social Icons -->
-						<ul class="icons">
-							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-              <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-              <li><a href="#" class="icon fa-linkedin"><span class="label">Linked-in</span></a></li>
-              <li><a href="https://www.instagram.com/novi.kariani/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="https://github.com/novikariani/" class="icon fa-github"><span class="label">Github</span></a></li>
-							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
-						</ul>
-
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="{{ site.baseurl }}/">HOME</a></li>
+						<li><a href="{{ site.baseurl }}/about">ABOUT</a></li>
+						<li><a href="{{ site.baseurl }}/portfolio">PORTFOLIO</a></li>
+					</ul>
 				</div>
-      </div>
+			</div>
+		</nav>
+
+		<div class="side-icons">
+			<!-- Social Icons -->
+			<ul class="nav navbar-nav navbar-right">
+				<i class="fas fa-camera-retro"></i>
+				<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+				<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+				<li><a href="#" class="icon fa-linkedin"><span class="label">Linked-in</span></a></li>
+				<li><a href="https://www.instagram.com/novi.kariani/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+				<li><a href="https://github.com/novikariani/" class="icon fa-github"><span class="label">Github</span></a></li>
+				<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+			</ul>
+		</div>
 
     <div id="" role="">
       {{ content }}
