@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: socialAct
 title: Food for Better Days
-categories: blog
+categories: social
 ---
 
 
