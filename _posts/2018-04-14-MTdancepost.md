@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Another Travel: Art with Dance
+title: 'Another Travel: Art with Dance'
 categories: blog
 ---
 
