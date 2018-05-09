@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Just Dance!
+title: Another Travel: Art with Dance
 categories: blog
 ---
 
