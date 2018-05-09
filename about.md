@@ -16,4 +16,4 @@ Time passed, I realize that exploring Bali is not enough for me in order to meet
 
 ### Contact me
 
-[email@domain.com](mailto:novii.kariani@gmail.com)
+[novii.kariani@gimail.com](mailto:novii.kariani@gmail.com)
