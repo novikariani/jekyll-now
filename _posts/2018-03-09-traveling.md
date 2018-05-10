@@ -5,6 +5,9 @@ categories: blog
 ---
 
 Hal apa sih yang paling membuat kamu bahagia setelah menguras banyak tenaga dan keringat?. Nah... kalau aku sendiri sangat suka berpetualang ke area pengunungan dan bukit.
+
+2012-07-07 07.01.10.jpg
+
 <br/>
 Alasannya: udara yang sejuk, berada di ketinggian tententu ternyata bisa menenangkan, pandangan kamu lebih luas untuk melihat alam di bawahnya, nah... yang paling terpenting adalah kamu yang suka menjadi saksi matahari terbit dan tenggelam. 
 <br/>
